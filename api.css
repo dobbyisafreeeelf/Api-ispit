@@ -1,0 +1,23 @@
+#loader {
+  border: 15px solid #e5e5e5ed;
+  border-radius: 50%;
+  border-top: 15px solid #34698d;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+  margin: 20px auto;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#errorMessage {
+  color: red;
+}
+tr {
+  background-color: rgb(236, 236, 236);
+}
